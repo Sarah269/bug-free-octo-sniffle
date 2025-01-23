@@ -105,5 +105,5 @@ group by actor
 having count((activity).film) > 30
 order by num_films desc;</pre>
 
-
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/FilmsGT30.png" width=450>
   
