@@ -1,17 +1,11 @@
 # Cumulative Table Design
 
 ## Project
-Model the actor_films dataset in way that facilitates efficient analysis.
+- Created a data model that facilitates efficient analysis of the actor_films dataset.  Populated the new table, actors, using a cumulative query. The 'actors' table will have an array of struct for the film attributes and an enum to categorize the quality of the film.
 
 ## Data 
  - input: actor_films
  - output: actors
-
-## Design
-
-
-
-
 
 ## Tasks
  - Create enum for actor's performance quality
@@ -39,7 +33,12 @@ Model the actor_films dataset in way that facilitates efficient analysis.
 	is_active boolean
 	);</pre>
 
-- Create a cumulative query to populate the actors table one year at a time.
-- Query the actors table
+- Create a cumulative query to populate the actors table one year at a time
+
+![Cumulative table design](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/Actors%20Pipeline%20Design.png)
+
+- Actor table
+
+- 
 
   
