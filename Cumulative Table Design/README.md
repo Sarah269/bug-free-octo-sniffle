@@ -42,13 +42,13 @@
 	is_active boolean
 	);</pre>
 
-- Create a cumulative query to populate the actors table one year at a time
+- Create a cumulative query to populate the actors table one year at a time.  Populated table for years 1970 to 1980.
+	- [Actor Cumulative Query](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/actors_cumulative.sql)
+
+ ## Queries
+
+ 
 
 
-
-- Actor table
-
-
-- 
 
   
