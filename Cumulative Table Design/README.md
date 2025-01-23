@@ -1,24 +1,20 @@
 # Cumulative Table Design
 
 ## Project
-- Created a data model that facilitates efficient analysis of the actor_films dataset.  Populated the new table, actors, using a cumulative query. The 'actors' table will have an array of struct for the film attributes and an enum to categorize the quality of the film.
+<p>Created a data model that facilitates efficient analysis of the actor_films dataset.  Populated the new table, actors, using a cumulative query. The 'actors' table will have an array of struct for the film attributes and an enum to categorize the quality of the film.</p>
 
 
-![Cumulative table design](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/Actors%20Pipeline%20Design.png)
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/Actors%20Pipeline%20Design.png" height=250>
 
 
 ## Data 
  - input: actor_films
-<pre>
-actor text,
-actorid text,
-film text,
-year integer,
-votes integer,
-rating float,
-filmid text
-</pre>
+   
+   <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/actor_films.png" height=250>
+
  - output: actors
+
+   <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/actors_table.png" height=250>
 
 ## Tasks
  - Create enum for actor's performance quality
@@ -51,7 +47,7 @@ filmid text
 
 
 - Actor table
-![Actor table](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/actors_table.png)
+
 
 - 
 
