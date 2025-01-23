@@ -1,27 +1,26 @@
 # Cumulative Table Design
 
 ## Project
-<p>Created a data model that facilitates efficient analysis of the actor_films dataset.  Populated the new table, actors, using a cumulative query. The 'actors' table will have an array of struct for the film attributes and an enum to categorize the quality of the film.</p>
+<p>Create a data model that facilitates efficient analysis of the actor_films dataset.  Populate the new table, actors, using a cumulative query. </p>
 
-
-<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/Actors%20Pipeline%20Design.png" height=250>
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/Actors%20Pipeline%20Design.png" height=200>
 
 
 ## Data 
  - input: actor_films
    
-   <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/actor_films.png" height=250>
+   <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/actor_films.png" height=200>
 
  - output: actors
 
-   <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/actors_table.png" height=250>
+   <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/actors_table.png" height=200>
 
 ## Tasks
  - Create enum for actor's performance quality
    
 <pre> create type quality_class as enum ('star', 'good', 'average', 'bad') </pre>
 
-- create an array of struct for film attributes
+- Create an array of struct for film attributes
   
 <pre>create type films as (
 	year integer,
@@ -47,8 +46,64 @@
 
  ## Queries
 
- 
+-- Create a temporary table. Unnest the data type films.  Select the year 1980.
 
+<pre>create temp table actor_films_1970t1980 as 
+select actor, current_year, unnest(films):: films as activity 
+from actors
+where current_year = 1980;</pre>
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/actors_table_unnested.png" height=200>
+
+- Actors in the film "The Blues Brothers"
+<pre>select actor, (activity).year, (activity).film  
+from actor_films_1970t1980
+where (activity).film = 'The Blues Brothers'
+order by actor;</pre>
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/BluesBrothers.png" height=200>
+
+- List Fred Astaire films from 1970 - 1980
+
+<pre>select (activity::films).year as film_year, (activity::films).film as film, (activity).rating
+from actor_films_1970t1980
+group by actor_films_1970t1980.activity
+having (activity).rating >= 9;</pre>
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/FredAstaire.png" width=450>
+
+- Which film(s) have the lowest rating?
+
+<pre>with cte1 as (
+select *,
+min((activity).rating) over (order by (activity).rating) as lowest_rating
+from actor_films_1970t1980
+)
+
+select (activity).year as year, 
+(activity).film as film,
+(activity).rating as rating
+from cte1
+where lowest_rating = (activity).rating;</pre>
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/Lowest%20Rating.png" width=450>
+
+- Which films have a rating >= 9?
+
+<pre>select (activity::films).year as film_year, (activity::films).film as film, (activity).rating
+from actor_films_1970t1980
+group by actor_films_1970t1980.activity
+having (activity).rating >= 9;</pre>
+  
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/ratingGTE9.png" width=450>
+
+- Which actors starred in more than 30 films from 1970 to 1980?
+  
+<pre>select actor, count((activity).film) as num_films
+from actor_films_1970t1980
+group by actor
+having count((activity).film) > 30
+order by num_films desc;</pre>
 
 
   
