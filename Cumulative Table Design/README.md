@@ -1,7 +1,7 @@
 # Cumulative Table Design
 
 ## Project
-<p>Create a data model that facilitates efficient analysis of the actor_films dataset.  Populate the new table, actors, using a cumulative query. </p>
+<p>Create a data model that facilitates efficient analysis of the actor_films dataset.  Populate the new dimension table, actors, using a cumulative query. </p>
 
 <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Cumulative%20Table%20Design/Actors%20Pipeline%20Design.png" height=200>
 
