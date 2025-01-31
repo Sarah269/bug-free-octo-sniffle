@@ -12,6 +12,9 @@ Build a Spark job that joins five datasets using broadcast and bucket joins
 <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/BigDataJoins4.png" width="49%">
 </p>
 
+## Reference
+- DataExpert.io Free Data Engineering bootcamp
+
 ## Tools
 - Docker, Python, Pandas, Pyspark, Spark, Iceberg, Jupyter Notebook
 
@@ -28,8 +31,6 @@ Build a Spark job that joins five datasets using broadcast and bucket joins
 
 <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/Aggregated_gamer_games.png" height=250>
 
-
-
 ## Tasks
 - Read csv file(s) into a dataframe(s)
 - Rename select column names
@@ -41,7 +42,15 @@ Build a Spark job that joins five datasets using broadcast and bucket joins
 - Query data
 
 ## Queries
-- Q1.
 
-- 
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/Q1_Most_kills_per_game.png" height=250>
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/Q2_playlist_most_played.png" height=250>
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/Q3_map_played_most.png" height=250>
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/Q4_map_most_killingspree_medals.png" height=250>
+
+  
+
 
