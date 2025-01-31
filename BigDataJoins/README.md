@@ -3,6 +3,19 @@
 ## Project
 Build a Spark job that joins five datasets using broadcast and bucket joins
 
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/BigDataJoins1.png" height=300>
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/BigDataJoins2.png" height=300>
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/BigDataJoins3.png" height=300>
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/BigDataJoins4.png" height=300>
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/Aggregated_gamer_games.png" height=300>
+
+
+
+
 ## Tools
 - Docker, Python, Pyspark, Spark, Iceberg, Jupyter Notebook
 
