@@ -7,6 +7,10 @@
 
 ## Reference
 -  DataExpert.io Free Data Engineering Bootcamp
+
+## Tools
+- Docker, Postgres, PostgreSQL, Microsoft Excel Online
+
   
 ## Data 
  - input: actor_films
