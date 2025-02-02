@@ -51,12 +51,34 @@ Create Pyspark jobs for actors_scd_backfill and user_devices_cumulation queries.
 
 ### [test_actors_scd_cte_backfill.py](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Spark%20Jobs%20%26%20Unit%20Tests/test_actors_scd_cte_backfill.py)
 - Unit tests for CTEs in actors_scd_backfill query
-- 
+- Pytest.fixtures
+   - source_df
+     - Define source data
+   - with_prev
+     - lag the quality_class and is_active columns in source data
+   - with_chg_ind
+     - set a flag to indicate change in value for quality_class or is_active
+- test_with_previous
+  - there is no data gte 1978 for the cte with_previous
+- test_with_indicators
+  - count the number of rows with a correct logic calculation for change indicator in cte with_indicators
+- test_with_streaks
+  -  compare actual number of streak_identifiers to expected streak_identifiers in cte with_streaks
+
 
 ### [test_user_devices_cumulation.py](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Spark%20Jobs%20%26%20Unit%20Tests/test_user_activity_cumulation.py)
+- Unit test for user_devices_cumulation cumulative query to compare actual output to expected output
+- Create named tuples for device, event, and userDevicesCumulated
+- Define Device data
+- Define Event data
+- Define User_devices_cumulated data
+- Set data variables
+- Define expected results
+- test #1: compare row counts between actual and expected
+- test #2: compare actual and expected dataframes
 
 ### Execute Unit Tests
-- Execute unit test from Jupyter notebook with command: !pytest <directory location of tests>
+- Execute unit test from Jupyter notebook with command: !pytest src (directory location of tests)
 
 <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Spark%20Jobs%20%26%20Unit%20Tests/pytest_results.png" height=300>
 
