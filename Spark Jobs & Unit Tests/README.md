@@ -1,7 +1,7 @@
 # Pyspark Jobs & Unit Tests
 
 ## Project 
-Create Pyspark jobs for actors_scd_backfill and user_device_cumulation queries. Develop unit tests for each job.
+Create Pyspark jobs for actors_scd_backfill and user_devices_cumulation queries. Develop unit tests for each job.
 
 <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Spark%20Jobs%20%26%20Unit%20Tests/Pyspark_job_flow.png" height=300>
 
