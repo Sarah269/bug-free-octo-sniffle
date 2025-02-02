@@ -8,7 +8,7 @@ Create Pyspark jobs for actors_scd_backfill and user_device_cumulation queries. 
 ## Tools
 - Python, Pyspark, Pytest, Chispa, Pyspark[SQL]
 
-## actors_scd_backfill_job.py
+## [actors_scd_backfill_job.py](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Spark%20Jobs%20%26%20Unit%20Tests/actors_scd_backfill_job.py)
 <p>Populate actors_scd dimension table using a backfill query</p>
 
 - SparkSQL backfill query to populate actors_scd
@@ -20,7 +20,7 @@ Create Pyspark jobs for actors_scd_backfill and user_device_cumulation queries. 
     - Execute backfill query
     - Insert backfill query results into actors_scd
  
-## user_devices_cumulation_job.py
+## [user_devices_cumulation_job.py](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Spark%20Jobs%20%26%20Unit%20Tests/user_activity_cumulation_job.py)
 <p>Add current day's user activity to cumulated fact table stored in user_device_activity</p>
 
 - do_user_activity_cumulation(spark, dataframe_cumulated, dataframe_devices, dataframe_event, ds_yesterday, ds_today)
@@ -33,5 +33,17 @@ Create Pyspark jobs for actors_scd_backfill and user_device_cumulation queries. 
   - Execute cumulative query
   - insert cumulative query results into user_devices_cumulated
 
+## Unit Test
 
+### [test_actors_scd_backfill.py](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Spark%20Jobs%20%26%20Unit%20Tests/test_actors_scd_backfill.py)
+
+
+### [test_actors_scd_cte_backfill.py](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Spark%20Jobs%20%26%20Unit%20Tests/test_actors_scd_cte_backfill.py)
+
+### [test_user_devices_cumulation.py](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Spark%20Jobs%20%26%20Unit%20Tests/test_user_activity_cumulation.py)
+
+### Execute Unit Tests
+- Execute unit test from Jupyter notebook with command: !pytest
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Spark%20Jobs%20%26%20Unit%20Tests/pytest_results.png" height=300>
 
