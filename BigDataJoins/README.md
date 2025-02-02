@@ -41,6 +41,9 @@ Build a Spark job that joins five datasets using broadcast and bucket joins
 - Aggregate joined data
 - Query data
 
+## Spark Job
+- [Spark job jupyter notebook](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/Spark_Joins.ipynb)
+  
 ## Queries
 
 <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/BigDataJoins/Q1_Most_kills_per_game.png" height=250>
