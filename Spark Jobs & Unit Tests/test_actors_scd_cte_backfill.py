@@ -1,8 +1,3 @@
-# DataExpert.io Academy Data Engineering Bootcamp
-# Pytest Assignment
-# Create tests with fake input and expected output data
-# Tests for actor_scd CTEs
-
 from pyspark.sql import SparkSession
 from pyspark import SparkConf
 from collections import namedtuple
