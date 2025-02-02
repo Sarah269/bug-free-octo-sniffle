@@ -37,7 +37,7 @@ Create Pyspark jobs for actors_scd_backfill and user_devices_cumulation queries.
   - insert cumulative query results into user_devices_cumulated
 
 ## Unit Test
-- tests are using input and output data
+- tests are using mock input and output data
 
 ### [test_actors_scd_backfill.py](https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Spark%20Jobs%20%26%20Unit%20Tests/test_actors_scd_backfill.py)
 - Unit test for actors_scd_backfill to compare actual output dataframe to expected output dataframe
