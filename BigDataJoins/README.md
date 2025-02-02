@@ -16,7 +16,7 @@ Build a Spark job that joins five datasets using broadcast and bucket joins
 - DataExpert.io Free Data Engineering bootcamp
 
 ## Tools
-- Docker, Python, Pandas, Pyspark, Spark, Iceberg, Jupyter Notebook
+- Docker, Python, Pandas, Pyspark, Spark, Iceberg, Jupyter Notebook, Google Sheets
 
 ## Input
 - maps (40 rows)
