@@ -1,1 +1,37 @@
+# Pyspark Jobs & Unit Tests
+
+## Project 
+Create Pyspark jobs for actors_scd_backfill and user_device_cumulation queries. Develop unit tests for each job.
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/Spark%20Jobs%20%26%20Unit%20Tests/Pyspark_job_flow.png" height=300>
+
+## Tools
+- Python, Pyspark, Pytest, Chispa, Pyspark[SQL]
+
+## actors_scd_backfill_job.py
+<p>Populate actors_scd dimension table using a backfill query</p>
+
+- SparkSQL backfill query to populate actors_scd
+- do_actor_scd_transformation(spark,dataframe)
+    - Create a view from the dataframe
+    - Return results from backfill query
+- main
+    - Define Spark session
+    - Execute backfill query
+    - Insert backfill query results into actors_scd
+ 
+## user_devices_cumulation_job.py
+<p>Add current day's user activity to cumulated fact table stored in user_device_activity</p>
+
+- do_user_activity_cumulation(spark, dataframe_cumulated, dataframe_devices, dataframe_event, ds_yesterday, ds_today)
+  - SparkSQL cumulative query to add current activity to user_devices_cumulated
+  - Convert dataframes to views
+  - return query results
+
+- main
+  - Define Spark session
+  - Execute cumulative query
+  - insert cumulative query results into user_devices_cumulated
+
+
 
