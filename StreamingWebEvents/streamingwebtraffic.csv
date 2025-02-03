@@ -1,0 +1,336 @@
+"country","state","count"
+AE,Dubayy,7
+AE,Abu Zaby,1
+AE,Ash Shariqah,3
+AE,Ra's al Khaymah,23
+AE,'Ajman,1
+AE,Al Fujayrah,1
+AF,Kabul,1
+AF,Herat,1
+AM,Armavir,9
+AR,Ciudad Autonoma de Buenos Aires,2
+AT,Steiermark,2
+AT,Tirol,2
+AT,Karnten,10
+AT,Niederosterreich,9
+AU,Queensland,6
+AU,Victoria,54
+AU,New South Wales,59
+AU,Western Australia,54
+BD,Dhaka,31
+BD,Khulna,10
+BE,Brussels Hoofdstedelijk Gewest,5
+BG,Sofia (stolitsa),5
+BH,Al Muharraq,2
+BR,Sao Paulo,9
+BR,Pernambuco,3
+BR,Goias,2
+BR,Minas Gerais,11
+BR,Bahia,10
+BY,Minskaya voblasts',15
+CA,Alberta,17
+CA,Nova Scotia,1
+CA,Quebec,20
+CA,Ontario,117
+CA,British Columbia,18
+CA,Saskatchewan,4
+CF,Ouham,1
+CH,Zurich,13
+CH,Geneve,1
+CH,Sankt Gallen,5
+CH,Bern,2
+CL,Region Metropolitana de Santiago,9
+CM,Littoral,2
+CN,Sichuan,1
+CR,Heredia,16
+CY,Lemesos,1
+DE,Hessen,10
+DE,Berlin,24
+DE,Rheinland-Pfalz,6
+DE,Baden-Wurttemberg,11
+DE,Schleswig-Holstein,5
+DE,Sachsen-Anhalt,1
+DE,Bayern,24
+DE,Nordrhein-Westfalen,2
+DE,Brandenburg,11
+DO,La Altagracia,9
+DZ,Bordj Bou Arreridj,1
+EE,Harjumaa,4
+EG,Al Bahr al Ahmar,2
+EG,Al Isma'iliyah,2
+EG,Al Qahirah,13
+EG,Ad Daqahliyah,10
+EG,Al Jizah,26
+EG,Dumyat,30
+EG,Al Qalyubiyah,8
+ES,Illes Balears,1
+ES,"Madrid, Comunidad de",10
+ES,Aragon,1
+ES,Pais Vasco,4
+ES,"Valenciana, Comunidad",15
+ES,Canarias,9
+ES,"Asturias, Principado de",1
+ES,Andalucia,2
+ES,Castilla-La Mancha,1
+ES,Catalunya,31
+ET,Addis Ababa,1
+FI,Paijat-Hame,1
+FI,Uusimaa,21
+FR,Auvergne-Rhone-Alpes,3
+FR,Nouvelle-Aquitaine,14
+FR,Grand-Est,3
+FR,Ile-de-France,53
+FR,Occitanie,1
+FR,Provence-Alpes-Cote-d'Azur,7
+FR,Bretagne,2
+FR,Hauts-de-France,8
+GB,Wales,1
+GB,Scotland,31
+GB,England,84
+GH,Ashanti,1
+GH,Greater Accra,16
+GR,Kriti,2
+GR,Attiki,26
+GR,Dytiki Makedonia,5
+GR,Kentriki Makedonia,4
+GR,Sterea Ellada,1
+GT,Guatemala,4
+GY,Mahaica-Berbice,2
+HK,Hong Kong,13
+HR,Grad Zagreb,2
+HR,Medimurska zupanija,1
+HR,Sibensko-kninska zupanija,3
+HR,Splitsko-dalmatinska zupanija,3
+HU,Pest,2
+HU,Budapest,19
+ID,Yogyakarta,6
+ID,Aceh,1
+ID,Kalimantan Barat,2
+ID,Jawa Tengah,17
+ID,Jawa Barat,31
+ID,Riau,2
+ID,Kalimantan Selatan,1
+ID,Jawa Timur,6
+ID,Jambi,2
+ID,Sumatera Utara,2
+ID,Bali,1
+ID,Jakarta Raya,53
+ID,Lampung,2
+IE,Waterford,3
+IE,Kildare,6
+IE,Dublin,22
+IL,HaDarom,9
+IL,Tel Aviv,2
+IL,HaMerkaz,7
+IL,Yerushalayim,17
+IL,Hefa,2
+IL,HaTsafon,9
+IN,Kerala,29
+IN,Bihar,63
+IN,Uttarakhand,5
+IN,Madhya Pradesh,15
+IN,Maharashtra,243
+IN,Haryana,30
+IN,Himachal Pradesh,2
+IN,Andhra Pradesh,105
+IN,Tamil Nadu,93
+IN,Gujarat,75
+IN,Jammu and Kashmir,2
+IN,Odisha,32
+IN,Telangana,84
+IN,Karnataka,349
+IN,Tripura,18
+IN,Uttar Pradesh,161
+IN,Assam,11
+IN,Chhattisgarh,10
+IN,Jharkhand,12
+IN,West Bengal,79
+IN,Delhi,97
+IN,Punjab,46
+IN,Rajasthan,154
+IQ,Baghdad,2
+IQ,Arbil,24
+IR,Tehran,2
+IT,Lombardia,20
+IT,Toscana,16
+IT,Campania,3
+IT,Sardegna,4
+IT,Piemonte,2
+JO,Al Mafraq,1
+JO,Az Zarqa',2
+JP,Tokyo,12
+JP,Niigata,1
+KE,Kilifi,4
+KE,Elgeyo/Marakwet,1
+KE,Kiambu,8
+KE,Nairobi City,9
+KH,Phnom Penh,1
+KR,Daejeon-gwangyeoksi,2
+KR,Gyeongsangbuk-do,1
+KR,Busan-gwangyeoksi,3
+KR,Seoul-teukbyeolsi,11
+KW,Al 'Asimah,19
+KZ,Almaty oblysy,2
+LA,Viangchan,7
+LB,Liban-Sud,1
+LK,Southern Province,1
+LK,Uva Province,1
+LK,Western Province,20
+LU,Luxembourg,6
+LV,Riga,1
+LV,Jurmala,15
+MA,Marrakech-Safi,7
+MK,Centar,12
+MK,-,18
+MM,Yangon,3
+MW,Lilongwe,3
+MX,Tamaulipas,1
+MX,Sinaloa,1
+MX,Jalisco,3
+MX,Queretaro,3
+MX,Guerrero,1
+MY,Sarawak,2
+MY,Perak,9
+MY,Wilayah Persekutuan Kuala Lumpur,4
+MY,Selangor,4
+MY,Pulau Pinang,7
+NG,Lagos,30
+NG,Enugu,1
+NG,Edo,3
+NG,Kwara,4
+NG,Anambra,1
+NG,Abuja Federal Capital Territory,4
+NG,Oyo,25
+NG,Niger,6
+NL,Overijssel,7
+NL,Drenthe,3
+NL,Noord-Holland,13
+NL,Utrecht,6
+NO,Viken,2
+NO,Trondelag,3
+NP,Gandaki,1
+NP,Bagmati,1
+NZ,Canterbury,3
+NZ,Bay of Plenty,2
+NZ,Auckland,5
+NZ,Waikato,2
+NZ,Manawatu-Whanganui,1
+NZ,Taranaki,1
+OM,Masqat,1
+OM,Musandam,6
+PA,Panama,5
+PE,Lima,2
+PE,Arequipa,1
+PG,National Capital District (Port Moresby),11
+PH,Tarlac,12
+PH,Laguna,4
+PH,Rizal,6
+PH,National Capital Region,5
+PH,Camarines Sur,1
+PK,Punjab,48
+PK,Azad Jammu and Kashmir,4
+PK,Islamabad,7
+PK,Sindh,125
+PK,Khyber Pakhtunkhwa,1
+PL,Lubelskie,1
+PL,Mazowieckie,31
+PL,Dolnoslaskie,3
+PL,Lubuskie,1
+PL,Slaskie,3
+PR,San Juan,3
+PT,Setubal,1
+PT,Regiao Autonoma da Madeira,1
+PT,Coimbra,2
+PT,Portalegre,1
+PT,Braga,11
+PT,Lisboa,6
+PT,Viseu,1
+RO,Bucuresti,4
+RO,Arges,3
+RO,Gorj,1
+RO,Dolj,4
+RO,Ilfov,1
+RO,Salaj,4
+RS,Beograd,1
+RU,Samarskaya oblast',1
+RU,Irkutskaya oblast',7
+RU,Moskovskaya oblast',2
+RU,"Mariy El, Respublika",1
+RU,Moskva,2
+RW,Ville de Kigali,1
+SA,Ash Sharqiyah,4
+SA,Ar Riyad,10
+SA,Najran,3
+SA,Al Jawf,4
+SE,Stockholms lan,19
+SE,Jonkopings lan,2
+SE,Orebro lan,1
+SE,Skane lan,14
+SG,Singapore,228
+SK,Presovsky kraj,1
+SK,Banskobystricky kraj,1
+SV,San Salvador,11
+TH,Krung Thep Maha Nakhon,41
+TN,Mahdia,1
+TN,Nabeul,1
+TN,L'Ariana,1
+TN,Tunis,1
+TR,Ankara,3
+TR,Sanliurfa,11
+TR,Kayseri,5
+TR,Rize,4
+TR,Kocaeli,1
+TR,Antalya,1
+TR,Istanbul,36
+TR,Konya,2
+TW,Tainan,1
+TW,New Taipei,1
+TW,Taipei,19
+TZ,Dar es Salaam,5
+UA,Kyiv,1
+UA,Chernivetska oblast,1
+UA,Ivano-Frankivska oblast,1
+US,New Hampshire,9
+US,Arizona,13
+US,Colorado,2
+US,South Carolina,3
+US,Montana,12
+US,Wisconsin,3
+US,Oregon,26
+US,Nevada,8
+US,Tennessee,9
+US,Texas,128
+US,Massachusetts,5
+US,Louisiana,2
+US,Ohio,11
+US,Alaska,6
+US,California,369
+US,Arkansas,2
+US,New Jersey,57
+US,North Carolina,91
+US,Connecticut,23
+US,Virginia,29
+US,Maine,3
+US,Utah,8
+US,Maryland,14
+US,Florida,17
+US,Washington,127
+US,Georgia,29
+US,Iowa,6
+US,Illinois,53
+US,New York,65
+US,Michigan,9
+US,Hawaii,9
+US,Indiana,1
+US,Missouri,16
+UZ,Toshkent,3
+VN,Tra Vinh,3
+VN,Can Tho,1
+VN,Da Nang,26
+VN,Ha Noi,31
+VN,Dak Lak,11
+VN,Ho Chi Minh,1
+ZA,North-West,1
+ZA,Gauteng,40
+ZA,Western Cape,21
+ZW,Harare,3
