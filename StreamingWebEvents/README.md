@@ -2,10 +2,10 @@
 
 ## Project
 Capture web activity in real-time and store in Postgres table
-
-<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/processed_events_flow.png" height=250>
-
-<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/agg_events_flow.png" height=250>
+<p float=left>
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/processed_events_flow.png" width="40%">
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/agg_events_flow.png" width="58%">
+</p>
 
 ## Reference
 - DataExpert.io Free Data Engineering Bootcamp
