@@ -1,11 +1,14 @@
 # Streaming Web Events
 
 ## Project
-Capture web activity in real-time and store in Postgres table
+Capture web activity for a family of websites in real-time and store in Postgres table
+
 <p float=left>
 <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/processed_events_flow.png" width="40%">
 <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/agg_events_flow.png" width="58%">
 </p>
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/WebEventsDashboard.png" height=300>
 
 ## Reference
 - DataExpert.io Free Data Engineering Bootcamp
