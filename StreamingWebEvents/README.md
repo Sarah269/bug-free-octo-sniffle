@@ -72,9 +72,20 @@ Create a Flink job to capture web activity for a family of websites in real-time
 - docker compose exec jobmanager flink run -py /opt/src/job/start_job.py  -- pyFiles /opt/src -d
 - docker compose exec jobmanager flink run -py /opt/src/job/aggregation2_job.py  --pyFiles /opt/src -d
 
-## Query processed_events
+## Query: processed_events
+- Web Traffic By Host and Event Date
+
+  <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/webtrafficbyhostevent_dt.png" height=250>
+
+- Web Traffic By Country
+
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/Webtrafficbyctry.png" height=250>
+
+- Web Traffic By State
+
+  <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/WebTrafficbystate.png" height=250>
+
+## Query: session_events_aggregated_ip
 
 
-
-## Query session_events_aggregated_ip
 
