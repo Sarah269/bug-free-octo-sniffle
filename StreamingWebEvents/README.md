@@ -14,7 +14,7 @@ Create a Flink job to capture web activity for a family of websites in real-time
 - DataExpert.io Free Data Engineering Bootcamp
 
 ## Tools
-- Docker, Pyflink, Apache Kafka, Postgres, PostgresSQL, Power BI
+- Docker, Pyflink, Apache Kafka, IPLocation API, Postgres, PostgresSQL, Google Sheets, Power BI
 
 ## DDL processed_events
 <pre>
@@ -39,8 +39,13 @@ Create a Flink job to capture web activity for a family of websites in real-time
 
 ## Apache Flink UI
 
-<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/ApacheFlinkDashboard.png" height=250>
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/ApacheFlinkDashboard.png" height=200>
 
+<p float=left>
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/ProcessedEventsjob.png" width="49%">
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/AggregatedJob.png" width="49%">
+</p>
+   
 ## aggregation2_job.py
 - create_agg_session_events_ip_sink_postgres
    - define aggregation table
@@ -86,6 +91,14 @@ Create a Flink job to capture web activity for a family of websites in real-time
   <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/WebTrafficbystate.png" height=250>
 
 ## Query: session_events_aggregated_ip
+- Web Events sessionized by IP and Host
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/SessionizedEventDataByIPandHost.png" height=250>
+
+- Web Events
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/WebEventHostDate.png" height=250>
+
+- Average Number of Events
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/AverageWebEvents.png" height=250>
 
 
 
