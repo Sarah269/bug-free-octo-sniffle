@@ -1,7 +1,7 @@
-# Streaming Web Events
+# Real-Time Web Traffic Streaming Using PyFlink, Kafka, and Postgres
 
 ## Project
-Create a Flink job to capture web activity for a family of websites in real-time, sessionize data on IP and host with a 5 minute gap,  and store the aggregated data in a Postgres table.
+Create a Flink job to capture web activity for a family of websites in real-time, sessionize data on IP and host with a 5 minute gap, and store the detailed and aggregated data in Postgres tables.
 
 <p float=left>
 <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/processed_events_flow.png" width="40%">
@@ -84,15 +84,15 @@ Create a Flink job to capture web activity for a family of websites in real-time
 
 - Web Traffic By Country
 
-<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/Webtrafficbyctry.png" height=250>
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/ProcessedEvents_ByCtry2.png" height=250>
 
-- Web Traffic By State
+- Web Traffic By Hour
 
-  <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/WebTrafficbystate.png" height=250>
+  <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/ProcessedEventsByHour.png" height=300>
 
 ## Query: session_events_aggregated_ip
 - Web Events sessionized by IP and Host
-<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/SessionizedEventDataByIPandHost.png" height=250>
+<img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/SessionizedEventDataByIPandHost.png" height=300>
 
 - Web Events
 <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/WebEventHostDate.png" height=250>
@@ -100,5 +100,6 @@ Create a Flink job to capture web activity for a family of websites in real-time
 - Average Number of Events
 <img src="https://github.com/Sarah269/bug-free-octo-sniffle/blob/main/StreamingWebEvents/AverageWebEvents.png" height=250>
 
-
-
+## Conclusion
+<p>
+Traffic was collected experimentally between 1 AM and 10 AM on random days, with data received from 75 countries—30% from India and 20% from the United States. Web traffic spiked 700% between 3 AM (72 hits) and 5 AM (501 hits), continuing to rise until peaking at 8 AM with 1,478 hits.</p>
